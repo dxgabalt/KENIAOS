@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+header {
+  background-color: #000;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de la sección Hero */
+#hero {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2HFu2B2Y9Ve4i6wqNF-whHhB548wBcYx3WA&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: -20px;
+}
+
+/* Estilos de la sección Acerca */
+#about {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  width: 30%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilos de la sección Música */
+#music {
+  padding: 40px 0;
+}
+
+.song-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.song {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.song h3 {
+  margin-top: 0;
+}
+
+/* Estilos de la sección Eventos */
+#events {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.event-calendar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.event {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.event h3 {
+  margin-top: 0;
+}
+
+/* Estilos de la sección Contacto */
+#contact {
+  padding: 40px 0;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
